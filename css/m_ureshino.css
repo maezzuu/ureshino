@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* header */
+header h1 {
+    padding-top: 40px;
+    font-size: 26px;
+}
+header p {
+    font-size: 14px;
+}
+
+/* cont_head */
+#cont_head {
+    padding: 20px 0;
+}
+
+/* cont_info */
+#cont_info01 > .info_title {
+    font-size: 14px;
+    line-height: 0;
+}
+#cont_info01 strong {
+    font-size: 22px;
+}
+#cont_info01 .info_text {
+    font-size: 14px;
+}
+
+/* cont_info02 */
+#cont_info02 {
+    margin: 23px auto;
+}
+#cont_info02 {
+    padding-top: 23px;
+}
+#cont_info02 .info02_left ul li {
+    margin-bottom: 30px;
+}
+.info02_left strong {
+    font-size: 16px;
+}
+
+/* cont_menu */
+.link a {
+    padding: 10px;
+    font-size: 14px;
+}
+#cont_menu .menu p:last-child {
+    line-height: 40px;
+}
+    
+/* cont_review */
+#cont_review {
+    margin: 20px auto 20px;
+}
+#cont_review .review_header {
+    align-items: center
+}
+.review_left p {
+    font-size: 14px;
+}
+.review_right p {
+    font-size: 30px;
+}
+.img01_right {
+    max-width: 300px;
+    margin:20px 0;
+}
+.img01_left {
+    height: 250px;
+}
+.img01 img {
+    width: 350px;
+    height: 250px;
+}
+.img01 {
+    flex-direction: column;
+    text-align: center;
+}
+
+.review_btn a {
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* #cont_place */
+#cont_place {
+    flex-wrap: wrap;
+}
+#cont_place .top01 {
+    display: flex;
+    justify-content: space-between;
+}
+#cont_place .place_top {
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+#cont_place .place_bottom {
+    justify-content: space-between;
+    flex-direction: column;
+}
+#cont_place .place_bottom .bottom01 {
+    padding: 0;
+}
+#cont_place h2 {
+    padding-left: 25px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#cont_place .place_bottom {
+    padding: 0;
+}
+/*mobile btn*/
+header .btn_mobile span {
+    position: absolute;
+    top: 0%; right: 0;
+    display: inline-block;
+    width: 30px; height: 3px;
+    background-color: #222;
+}
+header .btn_mobile span:nth-child(2) {
+    top:10px;
+    width: 20px;
+}
+header .btn_mobile span:nth-child(3) {
+    top:20px;
+}
+
+footer {
+    font-size: 14px;
+}

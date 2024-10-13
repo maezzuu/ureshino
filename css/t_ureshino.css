@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+/* header */
+header {
+    margin-bottom: 50px;
+}
+header h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+header p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* nav */
+nav .gnb {
+    display: none;
+    width: 100%;
+}
+nav {
+    position: fixed;
+    top: 120px; left: 0;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    background-color: #fcfcf3;
+}
+nav .gnb { 
+    display: block;
+    margin: 0 auto;
+}
+nav .gnb li {
+    width: 100%;
+}
+/* cont_head */
+#cont_head span {
+    font-size: 16px;
+}
+
+/* cont_img */
+#cont_img {
+    margin-bottom: 30px;
+}
+#cont_img .img_right {
+    display: none;
+}
+
+/* cont_ino2 */
+#cont_info02 {
+    flex-direction: column;
+}
+#cont_info02 {
+    width: 90%;
+}
+.info02_left:before{
+    display: none;
+}
+.info02_right {
+    width: 90%;
+    margin: 0 30px;
+}
+.info02_right iframe {
+    width: 95%;
+    margin-bottom: 50px;
+}
+
+/* cont_menu */
+#cont_menu {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* cont_review */
+#cont_review {
+    font-size: 14px;
+}
+.review_img {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.review_img img {
+    width: 300px;
+    height: 200px;
+    margin-right: 30px;
+}
+.img01 {
+    display: flex;
+    justify-content:space-between;
+    margin:0 auto;
+    flex-direction: row;
+    width: 90%;
+}
+.img01_right {
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 26px;
+    margin-left: 30px;
+}
+.img01_right span {
+    font-size: 12px;
+}
+.img01 p {
+    margin: 0;
+    padding-bottom: 22px;
+}
+
+/* cont_place */
+#cont_place {
+    width: 100%;
+    font-size: 14px;
+}
+#cont_place .place_top {
+    text-align: center;
+}
+#cont_place .place_top .top01 {
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+}
+#cont_place .place_bottom {
+    text-align: center;
+}
+#cont_place .place_bottom .bottom01 {
+    flex-direction: column-reverse;
+    margin: 30px 0;
+}
+.place_img img {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+
+
+
+.btn_mobile {
+    display: block;
+    margin-right: 10px;
+}
